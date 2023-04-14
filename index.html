@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {border: 1px solid black;}
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito</td>
+                <td>19,90$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total:19,90$</td>
+        </tfoot>       
+    </table>
+    <!-- Ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol> <!-- Anidar Listas dentro de otras listas-->
+                <li style="list-style-type: lower-roman;">Sub Elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 3</li>
+            </ol>
+        </li>
+        
+    </ol>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <Input type="text" id="nombre" name="nombre"
+        placeholder="Chanchito feliz..."/>
+        <br>
+        <label for="apellido">apellido</label>
+        <Input type="text" id="apellido" name="nombre"
+        placeholder="Chanchito trite..."/>
+        <br>
+        <label for="Comentiro">Comentarios</label>
+        <br>
+        <textarea cols="50" rows="10" id="Comentarios" 
+        placeholder="Ingrese comentario" 
+        name="comentario"></textarea>
+        <br>
+        <!-- Botones de tipo mas personalizable que input-->
+        <button type="button"> tipo boton </button>
+        <button type="reset"> tipo reset</button>  
+        <button type="submit"> tipo submit</button> 
+    </form>
+    <h1> Mi primer heading</h1> <!-- los heading son distintos tamanos de letra-->
+    <h2> Mi segundo heading</h2>
+    <h3> Mi tercer heading</h3>
+    <h4> Mi cuarto heading</h4>
+    <h5> Mi quinto heading</h5>
+    <h6> Mi sexto heading</h6>
+    <p>Chanchito feliz está muy feliz</p> <!--etiqueta de párrafo-->
+    <p>chanchito triste está muy triste</p>
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p> 
+        Este texto es <span style="color: blue;"> mucho mas largo </span> 
+        y es para mostrar <br> la etiqueta de span!
+     </p>  
+    <!-- Comentarios, Este texto es un comentario
+    y no va a aparecer en el explorador -->   
+    <a target="_blank" href="https://www.Google.cl"> Ir a Google</a> 
+    <!--Etiqueta para direccionar hacia otro enlace/página-->
+    <br> <!-- Etiqueta para bajar un espacio la siguente linea-->
+    <img src="Img2/Puerto Maguillines desde los roquerios.jpg" 
+    width="500"/>       <!-- Estiqueta para poner Imágenes-->
+    
+</body>
+</html>
